@@ -17,3 +17,13 @@ class Order:
 
         Order._all_orders.append(self)
 
+ def customer(self):
+        return self._customer
+
+    
+    def coffee(self):
+        return self._coffee
+
+    
+    def price(self):
+        return self._price

@@ -1,4 +1,4 @@
-class coffee
+class coffee:
 def __init__(self,name)
 self.name = name 
    if not isintance (name,str):
